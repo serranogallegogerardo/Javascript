@@ -115,7 +115,7 @@ const higiene = new Catalogos('Higiene y Limpieza')
 //objetos
 const maquinaAfeitar = new Productos('Guillete',4000)
 const jabon = new Productos('dove',170, true, 9)
-const deterjente = new Productos('magistral',500, true, 20)
+const detergente = new Productos('magistral',500, true, 20)
 
 //categoria
 const deportes = new Catalogos('Deportes')
@@ -128,13 +128,13 @@ const skate = new Productos('BM',42000)
 
 Higiene.set_product(maquinaAfeitar)
 Higiene.set_product(jabon)
-Higiene.set_product(deterjente)
+Higiene.set_product(detergente)
 console.log(Higiene.cantidad)
 
 
 
 /*
-const jumbo = new Supermercado('jumbo', 'Av simpre trola 130')
+const jumbo = new Supermercado('jumbo', 'Av simpre viva 130')
 
 
 const Guillete = new Productos(40,20, true)
