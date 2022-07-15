@@ -1,0 +1,64 @@
+Apuntes react:
+
+Un componente es una funcion basicamente que se declara con la primera letra mayuscula
+
+para iniciar app.js se ejecuta
+cd part1
+run app.js
+
+mi primer hola mundo en react y jsx
+
+//import logo from './logo.svg';
+import './App.css';
+// las funciones se declaran en mayuscula
+function App() {
+  return (
+    <div className="App">
+      Hola mundo
+    </div>
+  );
+}
+
+export default App;
+
+
+mas pruebas
+
+//import logo from './logo.svg';
+import './App.css';
+// las funciones se declaran en mayuscula
+
+const Mensaje = () => {
+  return <strong>WATAFAKKKKKK</strong>
+}
+
+function App() {
+  // variables.. y cosas aca
+  const mensaje = 'Soy una constante'
+
+  return (
+    // objetos no puede renderizar directamente
+    <div className="App">
+      <h1>Primera web en REACT con JSX</h1>
+      <strong>Esto es una muy fuerte etiqueta</strong>
+      <strong>Con esto queda muy duracell</strong>
+      <br />
+      {mensaje + ' evaluacion en JSX'}
+      <br /> 
+      <Mensaje />
+      <Mensaje />
+      <Mensaje />
+    </div>
+  );
+}
+
+export default App;
+
+EL pasaje de parametros (props) se hace como si fuese un atributo html
+
+props.name
+permite reutilizar los modulos para insertar diferentes cosas
+las propiedades se mandan como un objeto al modulo reutilizable
+ejemplo: style = {{props.propiedad}}
+
+Todos los componentes de react empiezan en MAYUSCULA porque se diferencian de las etiquetas HTML de esta forma.
