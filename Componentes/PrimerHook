@@ -1,0 +1,17 @@
+import React, { useState } from 'react';
+
+function MyHook() {
+  // Declara una nueva variable de estado con su contador
+  const [contador, setContador] = useState(0);
+
+  return (
+    <div>
+      <p>Estado actual: {contador} veces</p> 
+      <button onClick={() => setContador(contador + 1)}> 
+        Haceme click
+      </button>
+    </div>
+  );
+}
+export default MyHook;
+// basicamente un hook es como enganchar un evento con el estado que podemos modificar a traves de una funcion la que fuere
