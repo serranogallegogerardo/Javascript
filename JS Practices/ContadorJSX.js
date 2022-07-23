@@ -11,7 +11,7 @@ function App() {
     <div className="App">
 
       <div className = 'Title'>
-        <h1 id = 'headTitle'>freeClicker🔥</h1>
+        <h1 id = 'headTitle'>freeCodeClicker🔥</h1>
       </div>
 
       <div className = 'Content'>
@@ -20,9 +20,9 @@ function App() {
 
       </div>
       {/*<button onClick={() => alert("Hello!")}>Incrementar</button> */}
-      <div className = 'Rectangle1'>
-        <button onClick={() => setNumber(number + 1)}>Incrementar</button>
-        <button onClick={() => setNumber(number - 1)}>Decrementar</button>
+      <div className = 'Rectangles'>
+        <button id = 'button-1'onClick={() => setNumber(number + 1)}>Incrementar</button>
+        <button id = 'button-2' onClick={() => setNumber(number - 1)}>Decrementar</button>
       </div>
       
     </div>
@@ -33,9 +33,7 @@ export default App;
 
 /*
 
-Viendo como implementar esto bien...
-da error aun..
-
+Viendo
   const Incrementar = () => {
     return setNumber = number +1;
   }
