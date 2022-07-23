@@ -11,7 +11,7 @@ function App() {
     <div className="App">
 
       <div className = 'Title'>
-        <h1 id = 'headTitle'>freeCodeCamp🔥</h1>
+        <h1 id = 'headTitle'>freeClicker🔥</h1>
       </div>
 
       <div className = 'Content'>
