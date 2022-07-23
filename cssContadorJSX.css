@@ -1,0 +1,56 @@
+.App {
+  
+  color: white;
+  text-shadow: #282c3d;
+  font-family: Lato,sans-serif;
+}
+
+#content {
+  border-color: red;
+}
+
+#headTitle {
+  text-align: center;
+  font-family: sax-mono, monospace;
+  font-style: normal;
+  font-weight: 400;
+}
+
+span{
+  height: 100px; /*definir altura y ancho*/
+  width: 12%;
+
+  margin-left: 43.5%; /*centrar contenedor */
+  margin-right: auto;
+
+  border-radius: 40%; 
+  
+  display: flex;
+  justify-content: center;  /*Centrar texto*/
+  align-items: center;
+  
+  font-size: 32pt; 
+
+  background-color:#eb6841;
+  border-style: solid;
+  color: #cc333f;
+  /* 
+  fuera in
+  #cc333f #eb6841 #edc951
+  min-height ????
+  position: absolute;
+  position:absolute;
+  */
+
+}
+
+button {
+  margin-top: 15px;
+  margin-left: 43.5%; /*centrar contenedor */
+  margin-right: auto;
+}
+
+p, #Numero {
+  color:#edc951;
+  text-shadow: 10px;
+}
