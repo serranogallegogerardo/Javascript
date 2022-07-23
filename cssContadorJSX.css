@@ -30,6 +30,7 @@ span{
   align-items: center;
   
   font-size: 32pt; 
+  text-shadow: 3em black;
 
   background-color:#eb6841;
   border-style: solid;
@@ -44,10 +45,79 @@ span{
 
 }
 
+div.Rectangles {
+  margin-left: 37%;
+  margin-right: auto;
+}
+
 button {
   margin-top: 15px;
-  margin-left: 43.5%; /*centrar contenedor */
-  margin-right: auto;
+  
+  margin-right: 50%;
+  display: inline-block;
+  justify-content: center;
+}
+
+#button-1{
+
+  margin-left: 12.5%;
+
+
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #00D775, #00BD68);
+  border-radius: 5px;
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+
+  color: #FFFFFF;
+  cursor: pointer;
+  
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+
+  line-height: 44px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+ 
+  z-index: 9;
+  border: 0;
+}
+#button-2{
+
+  margin-left: 10%;
+
+  background: #e62143;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+  font-size: 1.15em;
+  font-weight: 700;
+  justify-content: center;
+
+  padding: .8em 1em;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+  text-underline-offset: 1px;
+  transition: all .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  
+  word-break: break-word;
+  border: 0;
 }
 
 p, #Numero {
